@@ -16,7 +16,7 @@ export default async function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between">
       <Header />
       <div className="flex w-full h-full z-0">
-        <ResultSection />
+        <ResultSection suppliers={data} />
         <GoogleMap suppliers={data} />
       </div>
     </main>
