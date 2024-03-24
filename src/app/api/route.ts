@@ -8,8 +8,8 @@ export function GET() {
             "categories": ["Ring", "Bracelet", "Necklace"], // ring bracelet necklace
             "featuredCategories": ["Jewelry"], // subset of categories
             "coordinates": {
-                "lat": 45,
-                "lng": -120,
+                "lat": 49.26031948406679, 
+                "lng": -123.25084529057064,
             },
             "address": "string",
             "imageUrl": null,
@@ -28,8 +28,8 @@ export function GET() {
             "categories": ["Nylon", "Fiber"], // ring bracelet necklace
             "featuredCategories": ["Textile"], // subset of categories
             "coordinates": {
-                "lat": 42,
-                "lng": -118,
+                "lat": 49.26288713091504, 
+                "lng": -123.24118022875784,
             },
             "address": "string",
             "imageUrl": null,
@@ -48,8 +48,8 @@ export function GET() {
             "categories": ["Batteries", "Drugs"], // ring bracelet necklace
             "featuredCategories": ["Mixed"], // subset of categories
             "coordinates": {
-                "lat": 40,
-                "lng": -115,
+                "lat": 49.26683137161232, 
+                "lng": -123.25004699637962,
             },
             "address": "string",
             "imageUrl": null,
@@ -68,8 +68,8 @@ export function GET() {
             "categories": ["LED Bulbs", "Transistors"], // ring bracelet necklace
             "featuredCategories": ["Hardware"], // subset of categories
             "coordinates": {
-                "lat": 0,
-                "lng": 0,
+                "lat": 49.26420670182641,
+                "lng": -123.23270596168304,
             },
             "address": "string",
             "imageUrl": null,
@@ -88,8 +88,8 @@ export function GET() {
             "categories": ["T-Shirts", "Jeans"], // ring bracelet necklace
             "featuredCategories": ["Clothing"], // subset of categories
             "coordinates": {
-                "lat": 50,
-                "lng": -50,
+                "lat": 49.26065843316529, 
+                "lng": -123.24036872342563,
             },
             "address": "string",
             "imageUrl": null,
