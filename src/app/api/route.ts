@@ -18,7 +18,7 @@ export function GET() {
             "products": [
                 {
                     "name": "string",
-                    "minQuantity": 0,
+                    "minQuantity": 2,
                     "pricePerUnit": 0,
                 }
             ]
@@ -38,7 +38,7 @@ export function GET() {
             "products": [
                 {
                     "name": "string",
-                    "minQuantity": 0,
+                    "minQuantity": 1,
                     "pricePerUnit": 0,
                 }
             ]
@@ -58,7 +58,7 @@ export function GET() {
             "products": [
                 {
                     "name": "string",
-                    "minQuantity": 0,
+                    "minQuantity": 3,
                     "pricePerUnit": 0,
                 }
             ]
@@ -78,7 +78,7 @@ export function GET() {
             "products": [
                 {
                     "name": "string",
-                    "minQuantity": 0,
+                    "minQuantity": 2,
                     "pricePerUnit": 0,
                 }
             ]
@@ -98,7 +98,7 @@ export function GET() {
             "products": [
                 {
                     "name": "string",
-                    "minQuantity": 0,
+                    "minQuantity": 2,
                     "pricePerUnit": 0,
                 }
             ]
