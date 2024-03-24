@@ -5,7 +5,7 @@ import SearchIcon from "../../public/search_icon.svg";
 
 export default function Header() {
     return (
-        <div className="p-5 flex justify-between bg-white z-10 w-full sticky top-0 left-0">
+        <div className="p-5 flex justify-between bg-white z-10 w-full sticky top-0 left-0 border-b-[1px] border-gray-300">
             <Image src={Logo} width={40} height={40} alt="Product logo"/>
             <div className="rounded-full bg-[#e8e8e8] flex">
                 <Image src={SearchIcon} width={14} height={14} alt="Search icon" className="mx-2" />
