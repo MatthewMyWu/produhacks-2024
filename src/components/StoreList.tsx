@@ -26,13 +26,81 @@ export default function StoreList() {
             storeName: "Supplier 2",
             categories: ["Jewelry"],
         },
+        {
+            storeName: "Supplier 2",
+            categories: ["Jewelry"],
+        },
+        {
+            storeName: "Supplier 2",
+            categories: ["Jewelry"],
+        },
+        {
+            storeName: "Supplier 2",
+            categories: ["Jewelry"],
+        },
+        {
+            storeName: "Supplier 2",
+            categories: ["Jewelry"],
+        },
+        {
+            storeName: "Supplier 2",
+            categories: ["Jewelry"],
+        },
+        {
+            storeName: "Supplier 2",
+            categories: ["Jewelry"],
+        },
+        {
+            storeName: "Supplier 2",
+            categories: ["Jewelry"],
+        },
+        {
+            storeName: "Supplier 2",
+            categories: ["Jewelry"],
+        },
+        {
+            storeName: "Supplier 2",
+            categories: ["Jewelry"],
+        },
+        {
+            storeName: "Supplier 2",
+            categories: ["Jewelry"],
+        },
+        {
+            storeName: "Supplier 2",
+            categories: ["Jewelry"],
+        },
+        {
+            storeName: "Supplier 2",
+            categories: ["Jewelry"],
+        },
+        {
+            storeName: "Supplier 2",
+            categories: ["Jewelry"],
+        },
+        {
+            storeName: "Supplier 2",
+            categories: ["Jewelry"],
+        },
+        {
+            storeName: "Supplier 2",
+            categories: ["Jewelry"],
+        },
+        {
+            storeName: "Supplier 2",
+            categories: ["Jewelry"],
+        },
+        {
+            storeName: "Supplier 2",
+            categories: ["Jewelry"],
+        },
     ];
 
     return (
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid grid-cols-2">
             {
                 stores.map((store, i) => (
-                    <div key={i} className={`${poppins.className} p-4 bg-green-200 relative`}>
+                    <div key={i} className={`${poppins.className} p-3 relative`}>
                         <Image 
                             src={verifiedBadge} 
                             width={40} 

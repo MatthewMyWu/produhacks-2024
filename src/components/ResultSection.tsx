@@ -3,7 +3,7 @@ import StoreList from "./StoreList";
 
 export default function ResultSection() {
     return (
-        <div className="bg-blue-500 flex flex-col min-h-screen w-full p-4">
+        <div className="flex flex-col h-screen w-full p-4 overflow-auto">
             <FilterOptions />
             <StoreList />
         </div>
