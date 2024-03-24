@@ -19,12 +19,8 @@ export default function FilterOptions() {
 
     return (
         <div className="mb-4 flex">
-            <button onClick={ () => console.log(verified)} className="bg-[#e8e8e8] mx-3 p-2 px-4 rounded-full hover:bg-[#d9d9d9]">Verified</button>
-            
             <button onClick={toggleVerified} className="bg-[#e8e8e8] mx-3 p-2 px-4 rounded-full hover:bg-[#d9d9d9]">Verified { verified ? 'y' : 'n'}</button>
             <button onClick={toggleRecommended} className="bg-[#e8e8e8] mx-3 p-2 px-4 rounded-full hover:bg-[#d9d9d9]">Recommended { recommended ? 'y' : 'n'}</button>
-
-
             {/** dropdown menu; recommended + rating */}
             <div className="bg-[#e8e8e8] mx-3 p-2 px-4 rounded-full hover:bg-[#d9d9d9]">Sort</div>
             {/* <div className="bg-[#e8e8e8] mx-4 p-2 px-4 rounded-full hover:bg-[#d9d9d9]">Minimum order quantity</div> */}
