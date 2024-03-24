@@ -38,7 +38,7 @@ export default function StoreList() {
                             width={40} 
                             height={49} 
                             alt="yer" 
-                            className="absolute bottom-11 left-[285px]" 
+                            className="absolute right-8 bottom-[2.8em]" 
                         />
                         <Image src="/mock_store_card.png" width={377} height={161} alt="yer" className="mb-4" />
                         <p className="font-bold">{ store.storeName }</p>
