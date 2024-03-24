@@ -3,7 +3,7 @@ import Header from "@/components/Header";
 import GoogleMap from "@/components/GoogleMap";
 
 async function getData() {
-  const res = await fetch("http://localhost:3000/api");
+  const res = await fetch("http://localhost:3000/api", { cache: "no-store" });
   
   if (res.ok) return res.json();
   else throw new Error("failed to fetch data");
