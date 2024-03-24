@@ -1,7 +1,7 @@
 /**
  * `GET /api`
  */
-export function GET() {
+export function POST() {
     const mockSuppliers = [
         {
             "name": "Supplier A",

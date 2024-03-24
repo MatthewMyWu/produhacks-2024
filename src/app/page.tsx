@@ -13,7 +13,7 @@ export default function Home() {
   useEffect(() => {
     const cb = async () => {
       const res = await fetch("http://localhost:3000/api", { 
-        method: "GET",
+        method: "POST",
         cache: "no-store",
         headers: {
           "Content-Type": "application/json", // Specify the content type of the body
