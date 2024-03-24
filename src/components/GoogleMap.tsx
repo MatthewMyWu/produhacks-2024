@@ -1,5 +1,5 @@
 "use client"
-import { APIProvider, Map, AdvancedMarker } from '@vis.gl/react-google-maps';
+import { APIProvider, Map, AdvancedMarker, Pin } from '@vis.gl/react-google-maps';
 
 export default function GoogleMap({ suppliers }: { suppliers: any[] }) {
     return (
@@ -14,7 +14,13 @@ export default function GoogleMap({ suppliers }: { suppliers: any[] }) {
                 >
                     {
                         suppliers.map((supplier: any, i: number) => (
-                            <AdvancedMarker key={i} position={supplier.coordinates} />
+                            <AdvancedMarker key={i} position={supplier.coordinates}>
+                                <Pin 
+                                    background={"white"} 
+                                    borderColor={"black"} 
+                                    glyphColor={"#edf738"}
+                                />
+                            </AdvancedMarker>
                         ))
                     }
                 </Map>
